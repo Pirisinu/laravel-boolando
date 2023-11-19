@@ -20,3 +20,8 @@ Route::get('/main', function () {
     return view('layouts.main_layout');
 })->name('main');
 
+Route::get('/product_layout', function () {
+    dd('Raggiunto');
+    return view('layouts.product_layout');
+})->name('product');
+
