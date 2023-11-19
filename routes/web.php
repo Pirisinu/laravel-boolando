@@ -20,8 +20,12 @@ Route::get('/main', function () {
     return view('layouts.main_layout');
 })->name('main');
 
-Route::get('/product_layout', function () {
-    dd('Raggiunto');
-    return view('layouts.product_layout');
+Route::get('/product/{id}', function ($id) {
+    // Qui puoi utilizzare l'$id per recuperare le informazioni del prodotto
+    // dal tuo array $products o dal tuo database
+    $products = config('products');
+    $product = $products[$id];
+
+    return view('layouts.product_layout', compact('product'));
 })->name('product');
 

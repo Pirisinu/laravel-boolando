@@ -1,5 +1,5 @@
 
-<main>
+<main class="products">
     <div class="container">
 
       <div class="row d-flex flex-wrap">
