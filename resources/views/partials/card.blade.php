@@ -5,7 +5,7 @@
 <div class="col">
     <!-- card  -->
     @foreach ($products as $product)
-    <div class="card">
+    <div class="card mx-2 mb-5">
       <div class="card-image">
         <div class="images">
           <img src="/img/{{$product['frontImage'] }}" alt="{{ $product['frontImage'] }}">
