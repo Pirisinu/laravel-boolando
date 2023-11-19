@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('first_view');
 });
 Route::get('/main', function () {
-    return view('layouts.main');
+    return view('layouts.main_layout');
 })->name('main');
 

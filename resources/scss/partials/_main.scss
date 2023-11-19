@@ -1,0 +1,11 @@
+main{
+    padding-top: 130px;
+
+    .row .col{
+        width: calc(100% / 3);
+        min-width: 250px;
+        padding: 0 10px;
+        margin-bottom: 20px;
+
+    }
+}
