@@ -1,0 +1,53 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A1A1A;
+    color: white;
+    height: 100px;
+    .left-side{
+      h4{
+        margin: 10px;
+      }
+      ul{
+        display: flex;
+
+        li{
+          margin: 10px;
+          &:hover{
+            background-color: white;
+            border-radius: 3px;
+            scale: 1.1;
+          }
+
+          a{
+            color: white;
+
+            &:hover{
+              color: #FA6903;
+            }
+          }
+        }
+      }
+    }
+    .right-side{
+      margin-right: 40px;
+      ul{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        li{
+          &:hover{
+            border-radius: 3px;
+            scale: 1.8;
+          }
+          i{
+            &:hover{
+              color: #FA6903;
+            }
+          }
+        }
+      }
+    }
+  }
